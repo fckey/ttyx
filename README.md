@@ -13,7 +13,7 @@
 
 4、用户前往自提点提货
 
-![有关的用户业务流程图](docs\\images\\001.png)
+![有关的用户业务流程图](https://github.com/fckey/ttyx/blob/master/docs/images/001.png)
 
 ### 3. 功能架构 
 系统的功能架构主要分为三层 
@@ -22,11 +22,11 @@
 2、前台团长应用层
 
 3、基础模块支撑层
-![img](docs\\images\\002.png)
+![img](https://github.com/fckey/ttyx/blob/master/docs/images/002.png)
 
 ### 4.技术架构
 
-![img](docs\\images\\003.png)
+![img](https://github.com/fckey/ttyx/blob/master/docs/images/003.png)
 
 ### 5.核心技术
 
