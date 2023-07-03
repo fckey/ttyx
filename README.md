@@ -16,7 +16,6 @@
 ![有关的用户业务流程图](docs/images/001.png)
 =======
 ![有关的用户业务流程图](https://github.com/fckey/ttyx/blob/master/docs/images/001.png)
->>>>>>> e9271a48e9c044838010a414d232658baa3f4318
 
 ### 3. 功能架构 
 系统的功能架构主要分为三层 
