@@ -31,12 +31,13 @@
 ![img](https://github.com/fckey/ttyx/blob/master/docs/images/003.png)
 
 ### 5.核心技术
-
+| 技术 | 说明 | 官方网站 |
+|----|----|------|
+|  MyBatis-Plus  |  持久层框架  | https://baomidou.com/     |
 SpringBoot：简化新Spring应用的初始搭建以及开发过程
 
 SpringCloud：基于Spring Boot实现的云原生应用开发工具，SpringCloud使用的技术：（Spring Cloud Gateway、Spring Cloud OpenFeign、Spring Cloud Alibaba Nacos等）
 
-MyBatis-Plus：持久层框架
 
 Redis：缓存数据库
 
