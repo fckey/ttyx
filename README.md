@@ -13,7 +13,6 @@
 
 4、用户前往自提点提货
 
-<<<<<<< HEAD
 ![有关的用户业务流程图](docs/images/001.png)
 =======
 ![有关的用户业务流程图](https://github.com/fckey/ttyx/blob/master/docs/images/001.png)
@@ -67,6 +66,7 @@ Docker：容器技术
 DockerFile：管理Docker镜像命令文本
 
 -----
+
 # 联系我
 
 
