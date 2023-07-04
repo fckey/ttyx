@@ -48,7 +48,7 @@ public class Swagger2Config {
                 .apiInfo(webApiInfo())
                 .select()
                 //只显示api路径下的页面
-                .apis(RequestHandlerSelectors.basePackage("com.atguigu.ssyx"))
+                .apis(RequestHandlerSelectors.basePackage("com.fckey.ttyx"))
                 .paths(PathSelectors.regex("/api/.*"))
                 .build()
                 .globalOperationParameters(pars);
@@ -73,7 +73,7 @@ public class Swagger2Config {
                 .apiInfo(adminApiInfo())
                 .select()
                 //只显示admin路径下的页面
-                .apis(RequestHandlerSelectors.basePackage("com.atguigu.ssyx"))
+                .apis(RequestHandlerSelectors.basePackage("com.fckey.ttyx"))
                 .paths(PathSelectors.regex("/admin/.*"))
                 .build()
                 .globalOperationParameters(pars);
@@ -85,7 +85,7 @@ public class Swagger2Config {
                 .title("网站-API文档")
                 .description("本文档描述了团团优选网站微服务接口定义")
                 .version("1.0")
-                .contact(new Contact("atguigu", "http://fckey.com", "sl.fang"))
+                .contact(new Contact("fangshaolei", "http://fckey.com", "sl.fang"))
                 .build();
     }
 
@@ -94,7 +94,7 @@ public class Swagger2Config {
                 .title("后台管理系统-API文档")
                 .description("本文档描述了团团优选后台系统服务接口定义")
                 .version("1.0")
-                .contact(new Contact("atguigu", "http://fckey.com", "sl.fang"))
+                .contact(new Contact("fangshaolei", "http://fckey.com", "sl.fang"))
                 .build();
     }
 }

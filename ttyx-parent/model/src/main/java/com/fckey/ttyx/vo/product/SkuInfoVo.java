@@ -1,6 +1,5 @@
 package com.fckey.ttyx.vo.product;
 
-import com.atguigu.ssyx.model.product.*;
 import com.fckey.ttyx.model.product.SkuAttrValue;
 import com.fckey.ttyx.model.product.SkuImage;
 import com.fckey.ttyx.model.product.SkuInfo;

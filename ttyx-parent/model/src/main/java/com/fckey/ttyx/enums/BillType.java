@@ -1,9 +1,9 @@
 package com.fckey.ttyx.enums;
 
 import com.alibaba.fastjson.annotation.JSONType;
-import com.alibaba.fastjson.parser.deserializer.EnumDeserializer;
-import com.alibaba.fastjson.serializer.EnumSerializer;
 import com.baomidou.mybatisplus.annotation.EnumValue;
+import com.fasterxml.jackson.databind.deser.std.EnumDeserializer;
+import com.fasterxml.jackson.databind.ser.std.EnumSerializer;
 import lombok.Getter;
 
 @JSONType(serializer = EnumSerializer.class, deserializer = EnumDeserializer.class, serializeEnumAsJavaBean = true)
