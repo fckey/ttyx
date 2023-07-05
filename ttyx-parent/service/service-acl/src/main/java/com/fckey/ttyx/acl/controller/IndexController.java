@@ -1,6 +1,9 @@
 package com.fckey.ttyx.acl.controller;
 
 import com.fckey.ttyx.common.result.Result;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -17,7 +20,7 @@ import java.util.Map;
  * @author: Jeff Fong
  * @create: 2023/07/04 11:35
  **/
-
+@Api(tags = "登录接口")
 @RestController
 @RequestMapping("/admin/acl/index")
 public class IndexController {
@@ -29,6 +32,7 @@ public class IndexController {
      * @param: 
      * @return com.fckey.ttyx.common.result.Result
      **/
+    @ApiOperation("登录")
     @PostMapping("login")
     public Result login(){
         // 返回token的值
@@ -44,11 +48,12 @@ public class IndexController {
      * @param: 
      * @return com.fckey.ttyx.common.result.Result
      **/
+    @ApiOperation("获取信息")
     @GetMapping("info")
     public Result info(){
         Map<String, String> map = new HashMap<>();
         map.put("name", "admin");
-        map.put("avatar", "https://i0.hdslb.com/bfs/face/3b69b0cc02a7b42ae457cf7de13ddf1989787f05.jpg@240w_240h_1c_1s_!web-avatar-nav.avif");
+        map.put("avatar", "https://img2.baidu.com/it/u=270755821,1298894760&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500");
         return Result.ok(map);
     }
     
@@ -59,6 +64,7 @@ public class IndexController {
      * @param: 
      * @return com.fckey.ttyx.common.result.Result
      **/
+    @ApiOperation("退出")
     @PostMapping("logout")
     public Result logout(){
         return Result.ok(null);
