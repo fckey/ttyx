@@ -53,7 +53,7 @@ OSS：文件存储服务
 
 Knife4j（Swagger）：Api接口文档工具
 
-Nginx：负载均衡
+Nginx：用来做负载均衡
 
 MySQL：关系型数据库
 
